@@ -12,7 +12,7 @@ jobs:
     - name: setup
       uses: actions/setup-dotnet@v3
       with:
-        dotnet-version: '8.0.100-preview.4.23260.5'
+        dotnet-version: '8.0.100-preview.5.23303.2'
 
     - name: restore
       run: dotnet restore
@@ -42,5 +42,5 @@ jobs:
       - name: build and push
         uses: docker/build-push-action@v3
         with:
-          tags: ghcr.io/nettdev/imageoptimize:${{ github.sha }}
+          tags: ghcr.io/jezielmoura/imageoptimize:${{ github.sha }}
           push: true
