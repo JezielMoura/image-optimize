@@ -1,0 +1,22 @@
+* { 
+    margin: 0; padding: 0; border: 0; box-sizing: border-box; 
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif}
+
+html, body { 
+height: 100%; width: 100%; }
+
+.container { 
+    margin-right: auto; margin-left: auto; max-width: 360px; padding: 20px; }
+
+h1 { 
+    text-align: center; font-weight: 400; padding: 20px; }
+
+
+form { 
+    display: flex; flex-direction: column;}
+
+form input, form select { 
+    margin-bottom: 15px; margin-top: 5px;}
+
+input[type="submit"] {
+    padding: 7px; font-weight: 500; cursor: pointer; }

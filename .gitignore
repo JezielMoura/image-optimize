@@ -1,0 +1,5 @@
+obj/
+bin/
+Properties/
+**/.DS_Store
+.vscode/
